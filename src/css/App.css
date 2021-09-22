@@ -1,0 +1,112 @@
+*{
+  user-select: none;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+#root{
+  background-image: linear-gradient(179deg, #031b97e0, #ff09b373);
+  padding: 10px;
+}
+
+.CurrentConditions,
+.TodayDetails{
+    background: hsla(0,0%,100%,.1)!important;
+    box-shadow: 0 0 12px 0 rgb(0 0 0 / 20%);
+    border-radius: 6px;
+}
+
+.CurrentConditions-location,
+.CurrentConditions-temparature,
+.CurrentConditions-phraseValue,
+.CurrentConditions-precipValue{
+  color: white;
+  font-weight: bold;
+}
+
+.CurrentConditions-timestamp{
+  color: #cbcbcb;
+}
+
+.CurrentConditions-phraseIcon{
+  color: white;
+}
+
+.TodayDetails .Item{
+  background-color: transparent;
+}
+
+.TodayDetails .Item i{
+  color: white;
+  margin: 0px 8px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.HourDisclosure .Item i{
+  color: black;
+  margin: 0px 8px;
+  font-size: 17px;
+}
+
+.TodayDetails .Item span{
+  color: white;
+  margin: 0px 8px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.HourDisclosure .Item span{
+  color: black;
+  margin: 0px 8px;
+  font-size: 17px;
+}
+
+.WeatherTable{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.WeatherTable-Temp{
+  color: #1b4de4;
+}
+
+.WeatherTable-Icon{
+  font-size: 3rem;
+}
+
+
+
+
+@media only screen and (max-width: 767px){
+  .CurrentConditions-phraseIcon,
+  .CurrentConditions-temparature,
+  .FeelsLikeTemparature{
+    font-size: 3rem;  
+  }
+  .CurrentConditions-phraseValue{
+    font-size: 1rem;  
+  }  
+}
+
+/*Dimentions: ≥768px*/
+@media only screen and (min-width: 768px){
+  .CurrentConditions-temparature,
+  .CurrentConditions-phraseIcon,
+  .FeelsLikeTemparature{
+    font-size: 6rem;  
+  }
+  .CurrentConditions-phraseValue{
+    font-size: 1.5rem;  
+  }  
+}
