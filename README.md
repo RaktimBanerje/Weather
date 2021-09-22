@@ -1,10 +1,10 @@
 # Weather App ( (weather.com) clone )
 
-![weather app screenshot 1](https://github.com/RaktimBanerje/Weather-App/blob/master/screen%20shot/weather%20app%20screenshot-1.png)
+![weather app screenshot 1](https://github.com/RaktimBanerje/Weather-App/blob/master/screenshots/weather%20app%20screenshot-1.png)
 
-![weather app screenshot 2](https://github.com/RaktimBanerje/Weather-App/blob/master/screen%20shot/weather%20app%20screenshot-2.png)
+![weather app screenshot 2](https://github.com/RaktimBanerje/Weather-App/blob/master/screenshots/weather%20app%20screenshot-2.png)
 
-![weather app screenshot 3](https://github.com/RaktimBanerje/Weather-App/blob/master/screen%20shot/weather%20app%20screenshot-3.png)
+![weather app screenshot 3](https://github.com/RaktimBanerje/Weather-App/blob/master/screenshots/weather%20app%20screenshot-3.png)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
