@@ -1,4 +1,4 @@
-# Weather App ( weather.com clone )
+# Weather App ( A weather.com clone )
 
 ![weather app screenshot 1](https://github.com/RaktimBanerje/Weather-App/blob/master/screenshots/weather%20app%20screenshot-1.png)
 
