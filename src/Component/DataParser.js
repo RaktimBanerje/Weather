@@ -25,7 +25,7 @@ export function getIcon(id, icon){
 }
 
 export function getPop(pop){
-	return `${pop.toFixed() * 100}%`
+	return `${pop * 100}%`
 }
 
 export function getHumidity(humidity){

@@ -1,9 +1,13 @@
 import React from 'react'
-
 import { Row, Col } from 'react-bootstrap'
-
-import { getHumidity, getPressure, getVisibility, getUvi, getWind_speed, getDew_point } from './DataParser'
-
+import { 
+	getHumidity, 
+	getPressure, 
+	getVisibility, 
+	getUvi, 
+	getWind_speed, 
+	getDew_point 
+} from './DataParser'
 import TodayDetailsItem from './TodayDetailsItem'
 
 const HourDisclosureBody = props => {

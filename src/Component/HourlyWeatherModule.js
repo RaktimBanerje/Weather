@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
-
 import { Button, Card } from 'react-bootstrap'
-
 import SixHourForecast from './SixHourForecast'
 import FourtyEightHourForecast from './FourtyEightHourForecast'
 

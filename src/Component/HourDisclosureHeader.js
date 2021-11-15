@@ -1,6 +1,12 @@
 import React from 'react'
-
-import { getDate, getTime, getTemp, getFeels_like, getIcon, getPop } from './DataParser'
+import { 
+	getDate, 
+	getTime, 
+	getTemp, 
+	getFeels_like, 
+	getIcon, 
+	getPop 
+} from './DataParser'
 import { Row, Col } from 'react-bootstrap'
 
 const HourDisclosureHeader = props => {
